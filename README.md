@@ -30,13 +30,13 @@ This project focuses on optimizing airline ticket prices using a machine learnin
 		Visualizations such as Bar and Histogram charts, Boxplots, and line plots were created to gain deeper insights into the factors influencing prices.
 
 5. Segmentation:
-		To tailor pricing strategies to the unique characteristics of each segment and optimize revenue.Both Air India and  Vistara airline offered consistent data patterns and had a significant market 		presence. But 		I chose vistara and economy class as it is more likely to be price sensitive and prioritize affordability( first-class and business-class customers often exhibit a high 		willingness to pay for tickets).
+		To tailor pricing strategies to the unique characteristics of each segment and optimize revenue.Both Air India and  Vistara airline offered consistent data patterns and had a significant market 		presence. But I chose vistara, and an economy class as it is more likely to be price sensitive and prioritize affordability( first-class and business-class customers often exhibit a high 		willingness to pay for tickets).
 
 5. Model Selection and Training:
 		Several machine learning models were tested to predict ticket prices:
 
 		Random Forest and Decision Tree models were initially explored. While these models provided decent results, they were time-consuming and less effective in terms of accuracy.
-		XGBoost Regressor was ultimately chosen for its superior performance and efficiency. It provided the best combination of accuracy and training speed, significantly reducing computational time 		while yielding a 		higher R² score.
+		XGBoost Regressor was ultimately chosen for its superior performance and efficiency. It provided the best combination of accuracy and training speed, significantly reducing computational time 		while yielding a higher R² score.
 
 6. Hyperparameter Tuning:
 		To further enhance the model's performance, hyperparameter tuning was applied. This involved optimizing key parameters such as:
@@ -48,7 +48,7 @@ This project focuses on optimizing airline ticket prices using a machine learnin
 		I used GridSearchCV for balancing model complexity and generalization, helping the model make more reliable predictions without overfitting to the training data.
 
 7. Price Optimization:
-		The next step involved using the trained model to predict ticket prices. However, to ensure the prices were aligned with real-world market conditions, a custom objective function was formulated 		based on 					demand factors. This function considered the current market demand for flights, enabling the model to adjust prices dynamically in response to 			fluctuations in booking patterns.
+		The next step involved using the trained model to predict ticket prices. However, to ensure the prices were aligned with real-world market conditions, a custom objective function was formulated 		based on demand factors. This function considered the current market demand for flights, enabling the model to adjust prices dynamically in response to 				fluctuations 		in booking patterns.
 
 8. Model EvaluationThe model was evaluated using various performance metrics:
 
